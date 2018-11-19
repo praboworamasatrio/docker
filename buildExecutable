@@ -1,4 +1,5 @@
-C:\Program Files (x86)\Jenkins\workspace\docker
+C:\Windows\System32\cmd.exe
+cd C:\Program Files (x86)\Jenkins\workspace\docker
 docker stop helloworld
 docker rm helloworld
 docker build -t hello-world C:\Program Files (x86)\Jenkins\workspace\docker
