@@ -1,5 +1,5 @@
-cd /root/docker
+C:\Program Files (x86)\Jenkins\workspace\docker
 docker stop helloworld
 docker rm helloworld
-docker build -t hello-world /root/docker/
+docker build -t hello-world C:\Program Files (x86)\Jenkins\workspace\docker
 docker run -d --name helloworld -p 80:80 -v /root/docker/src/:/var/www/html hello-world
